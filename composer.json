@@ -1,0 +1,10 @@
+{
+    "name": "mahdi/short-link-url",
+    "description": "Generate a short URl from the provieded link, support QR code",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1",
+        "guzzlehttp/guzzle": "^7.8"
+    }
+}
