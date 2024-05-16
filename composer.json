@@ -1,5 +1,5 @@
 {
-    "name": "mahdi/short-link-url",
+    "name": "ma/short-link-url",
     "description": "Generate a short URl from the provieded link, support QR code",
     "type": "library",
     "license": "MIT",

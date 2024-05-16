@@ -1,24 +1,15 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
-        'name' => '__root__',
+        'reference' => '30884feeedd45e4dc61b326f6c62733dea3a9853',
+        'name' => 'mahdi/short-link-url',
         'dev' => true,
     ),
     'versions' => array(
-        '__root__' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../../',
-            'aliases' => array(),
-            'reference' => NULL,
-            'dev_requirement' => false,
-        ),
         'guzzlehttp/guzzle' => array(
             'pretty_version' => '7.8.1',
             'version' => '7.8.1.0',
@@ -44,6 +35,15 @@
             'install_path' => __DIR__ . '/../guzzlehttp/psr7',
             'aliases' => array(),
             'reference' => '45b30f99ac27b5ca93cb4831afe16285f57b8221',
+            'dev_requirement' => false,
+        ),
+        'mahdi/short-link-url' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => '30884feeedd45e4dc61b326f6c62733dea3a9853',
             'dev_requirement' => false,
         ),
         'psr/http-client' => array(
